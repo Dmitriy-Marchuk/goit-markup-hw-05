@@ -119,7 +119,21 @@ ul {
 }
 .site-nav-list .link.current {
   color: var(--accent-text-color);
+  position: relative;
 }
+
+.site-nav-list .link.current::before {
+  bottom: 0;
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 4px;
+
+  color: purple;
+  border-radius: 2px;
+}
+
 .site-nav-item .link:focus,
 .site-nav-item .link:hover {
   color: var(--accent-text-color);
