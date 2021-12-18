@@ -373,16 +373,16 @@ ul {
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
+}
+
+.doing-text h3 {
+  margin: 0;
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-
-.doing-text h3 {
-  margin: 0;
 }
 
 .doing-thumb img {
