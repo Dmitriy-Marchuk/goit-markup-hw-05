@@ -120,6 +120,7 @@ ul {
 
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: 250ms var(--animation-cubic);
 }
 .site-nav-list .link.current {
   color: var(--accent-text-color);
@@ -141,7 +142,6 @@ ul {
 .site-nav-item .link:focus,
 .site-nav-item .link:hover {
   color: var(--accent-text-color);
-  transition: 250ms var(--animation-cubic);
 }
 
 /* HEADER CONTACT */
@@ -170,11 +170,11 @@ ul {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  transition: 250ms var(--animation-cubic);
 }
 .header-contact-item .link:focus,
 .header-contact-item .link:hover {
   color: var(--accent-text-color);
-  transition: 250ms var(--animation-cubic);
 }
 
 .contact-ico {
@@ -467,12 +467,13 @@ ul {
   fill: #afb1b8;
 
   border-radius: 50%;
+
+  transition: 250ms var(--animation-cubic);
 }
 .team-icon:hover,
 .team-icon:focus {
   background-color: var(--accent-text-color);
   fill: #ffffff;
-  transition: 250ms var(--animation-cubic);
 }
 
 .team-ico {
@@ -522,13 +523,14 @@ ul {
   height: 100%;
 
   fill: #afb1b8;
+
+  transition: 250ms var(--animation-cubic);
 }
 
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid #2196f3;
   fill: var(--accent-text-color);
-  transition: 250ms var(--animation-cubic);
 }
 
 .clients-ico {
@@ -619,12 +621,13 @@ ul {
   background: rgba(255, 255, 255, 0.1);
 
   border-radius: 50%;
+
+  transition: 250ms var(--animation-cubic);
 }
 .connecting-icon:hover,
 .connecting-icon:focus {
   background-color: var(--accent-text-color);
   fill: #ffffff;
-  transition: 250ms var(--animation-cubic);
 }
 
 .footer-ico {
@@ -659,6 +662,8 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+
+  transition: 250ms var(--animation-cubic);
 }
 .radio-button:hover,
 .radio-button:focus {
@@ -666,7 +671,6 @@ ul {
   color: var(--radio-buttons-text-current);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: 250ms var(--animation-cubic);
 }
 
 /* .radio-button.current {
@@ -690,6 +694,8 @@ ul {
   width: 370px;
 
   border: 1px solid #eeeeee;
+
+  transition: 250ms var(--animation-cubic);
 }
 .radio-filter-item:nth-child(3n) {
   margin-right: 0px;
@@ -701,7 +707,6 @@ ul {
 .radio-filter-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: 250ms var(--animation-cubic);
 }
 
 .filter-image {
@@ -754,8 +759,6 @@ ul {
   background-color: rgba(33, 150, 243, 0.1);
   bottom: 0;
   transform: translateY(100%);
-
-  transition: transform 250ms var(--animation-cubic);
 }
 
 .radio-filter-hover {
@@ -768,13 +771,14 @@ ul {
   bottom: 0;
   transform: translateY(101%);
 
-  transition: transform 250ms var(--animation-cubic);
   display: flex;
   justify-content: center;
   position: absolute;
   width: 100%;
 
   top: 0;
+
+  transition: transform 250ms var(--animation-cubic);
 }
 
 .radio-filter-hover p {
@@ -788,10 +792,8 @@ ul {
 
 .radio-filter-item:hover .radio-filter-thumb:before {
   transform: translateY(0);
-  transition: 250ms var(--animation-cubic);
 }
 
 .radio-filter-item:hover .radio-filter-hover {
   transform: translateY(0);
-  transition: 250ms var(--animation-cubic);
 }
